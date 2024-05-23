@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 2px solid rgba(86, 83, 83, 0.401);
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+.container h2 {
+    text-align: center;
+    margin: 15px auto;
+    color: #e65b00;
+}
+.top-area ul {
+    border: 1px dashed rgb(211, 196, 196);
+    border-radius: 5px;
+    padding: 5px 10px;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.top-area ul li {
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.top-area ul li img {
+    height: 15px;
+}
+.active {
+    background-color: rgba(135, 207, 235, 0.655);
+    border-radius: 5px;
+}
+#color {
+    width: auto;
+    height: auto;
+}
+.content-area {
+    margin: 10px 0;
+    width: 100%;
+}
+.content-area textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    height: 200px;
+    font-size: 14px;
+}
+#fonts {
+    height: auto;
+    width: auto;
+}
+#fonts div {
+    height: auto;
+    width: auto;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+#fonts span {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+#fonts span {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+#fonts i {
+    height: auto;
+    width: auto;
+    margin: 3px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.case {
+    text-transform: uppercase;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.alignJustify {
+    text-align: justify;
+}
